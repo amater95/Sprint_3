@@ -8,11 +8,11 @@ class OnlineSalesRegisterCollector:
 
 # Задание 1 Напиши геттеры
     @property
-    def get_name_items(self):
+    def name_items(self):
         return self.__name_items
     
     @property
-    def get_number_items(self):
+    def number_items(self):
         return self.__number_items
 
 # Задание 2 Добавь товар в чек
